@@ -1,39 +1,46 @@
 ## DiBaseRNA: Database and Atlas of Nucleobase Spatial Arrangements in RNA ##
 
 
-# Description of the files and folders #
+### Description of the files and folders ###
 
 DiBaseRNA_DB:
+
 the folder with the actual structure files that comprise the database. 
 
 DiBaseRNA_DB/DiBaseRNA_A:
+
 the database with hydrogen atoms optimised by AM1. Optimisation of only the hydrogen positions are done on each of the dimeric structures, with non-planarities removed by projecting the hydrogens onto the ring plane.
 
 DiBaseRNA_DB/DiBaseRNA_B:
+
 the database where the monomers in each of the dimeric structures are constructed from the etalon A, G, U and C structures obtained by tight RB3LYP/6-311+G(2d,p) optimisation. Thus, only the interring positions are inferred from the experimental RNA structures.
 
 DiBaseRNA_DB/DiBaseRNA_B/DiBaseRNA_metadata.txt:
+
 the file with the structure and source information for each structure file in the database, mapping the information onto the used RNA05 structure database.
 
 DiBaseRNA_ATLAS:
 the folder with all the stereo visualisation files and figures for the DiBaseRNA database.
 
 DiBaseRNA_ATLAS/Chimera_scenes:
+
 the folder with the 3D visualisation files to be used with USCF Chimera program.
 
 DiBaseRNA_ATLAS/DiBaseRNA_ATLAS.docx:
+
 the MS Word source of the DiBaseRNA_ATLAS.pdf file.
 
 DiBaseRNA_ATLAS.pdf:
+
 the visual guide to the DiBaseRNA database.
 
 
-# How to cite the DiBaseRNA database and atlas? #
+### How to cite the DiBaseRNA database and atlas? ###
 Sahakyan A.B. and Vendruscolo M, “DiBaseRNA: Database and Atlas of Nucleobase Spatial Arrangements in RNA”, 2013+. https://github.com/aleksahak/DiBaseRNA
 Sahakyan A.B. and Vendruscolo M. “Analysis of Ring Current and Electric Field Effects on the Chemical Shifts of RNA Bases”, J. Phys. Chem. B, 117, 1989-1998, 2013. http://dx.doi.org/10.1021/jp3057306
 
 
-# How has the DiBaseRNA atlas been constructed? #
+### How has the DiBaseRNA atlas been constructed? ###
 
   The initial RNA structures were taken from the RNA05 database of Richardson and co-workers[1], which contained 171 coordinate files of RNA X-ray structures with 9486 nucleotide content and 3.0 Å or better resolution. Then, all the structures with equal to or better than 1.8 Å resolution were scanned, and all the possible dibase arrangements between any pair among the conjugated rings of adenine (A), guanine (G), cytosine (C), and uracil (U) bases were retrieved.
 
