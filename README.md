@@ -1,5 +1,6 @@
 ## DiBaseRNA: Database and Atlas of Nucleobase Spatial Arrangements in RNA ##
 
+![](DiBaseRNA_ATLAS/icon.png)
 
 ### Description of the files and folders ###
 
@@ -36,8 +37,10 @@ the visual guide to the DiBaseRNA database.
 
 
 ### How to cite the DiBaseRNA database and atlas? ###
-Sahakyan A.B. and Vendruscolo M, “DiBaseRNA: Database and Atlas of Nucleobase Spatial Arrangements in RNA”, 2013+. https://github.com/aleksahak/DiBaseRNA
-Sahakyan A.B. and Vendruscolo M. “Analysis of Ring Current and Electric Field Effects on the Chemical Shifts of RNA Bases”, J. Phys. Chem. B, 117, 1989-1998, 2013. http://dx.doi.org/10.1021/jp3057306
+
+Sahakyan A.B. and Vendruscolo M, “DiBaseRNA: Database and Atlas of Nucleobase Spatial Arrangements in RNA”, 2013+. https://github.com/aleksahak/DiBaseRNA
+
+Sahakyan A.B. and Vendruscolo M. “Analysis of Ring Current and Electric Field Effects on the Chemical Shifts of RNA Bases”, J. Phys. Chem. B, 117, 1989-1998, 2013. http://dx.doi.org/10.1021/jp3057306
 
 
 ### How has the DiBaseRNA atlas been constructed? ###
